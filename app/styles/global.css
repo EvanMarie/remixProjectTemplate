@@ -1,0 +1,123 @@
+:root {
+
+    /* Break Points */
+
+    --baseScreen: 0px;
+    --smallScreen: 500px;
+    --mediumScreen: 750px;
+    --largeScreen: 900px;
+    --xlargeScreen: 1200px;
+
+
+    /* COLORS */
+
+    --lightCreme: #F9E2CA;
+    --peachyCreme: #EFC8AA;
+    --beige: #BF9C79;
+    --mediumBrown: #705449;
+    --coffee: #705B52;
+    --darkBrown: #2e2622;
+    --lightBlue: #A7E7F6;
+    --brightBlue: #3FCEF6;
+    --teal: #318EAD;
+    --darkTeal: #225A76;
+
+    --mainText: var(--lightCreme);
+    --mainBackground: var(--darkBrown);
+    --darkShadow: var(--darkBrown);
+    --lightShadow: var(--lightCreme);
+
+
+    /* SIZES */
+    
+    --xsmall: 0.25rem;
+    --small: 0.5rem;
+    --medium: 1rem;
+    --large: 2rem;
+    --larger: 3rem;
+    --xlarge: 4rem;
+    --xxlarage: 5rem;
+
+
+    /* FONT SIZES */
+    --xsmallText: 0.75rem;
+    --smallText: 0.9rem;
+    --normalText: 1.3rem;
+    --mediumText: 1.5rem;
+    --largeText: 2rem;
+    --xlargeText: 3rem;
+    --xxlargeText: 4rem;
+
+
+    /* WEIGHTS */
+
+    --light: 300;
+    --regular: 400;
+    --semiBold: 500;
+    --bold: 700;
+
+
+    /* RADIUS */
+
+    --roundXSmall: 3px;
+    --roundSmall: 7px;
+    --roundMedium: 11px;
+    --roundSemiLarge: 15px;
+    --roundLarge: 23px;
+    --roundXLarge: 44px;
+    --roundXXLarge: 99px;
+    --roundFull: "50%";
+
+    /* SHADOWS */
+
+    --xsmallShadowDark: 1px 1px 2px rgba(0,0,0,0.75);
+    --xsmallShadowLight: 1px 1px 2px rgba(255,255,255,0.75);
+    --smallShadowDark: 2px 2px 2px rgba(0,0,0,0.75);
+    --smallShadowLight: 2px 2px 2px rgba(255,255,255,0.75);
+    --mediumShadowDark: 3px 3px 2px rgba(0,0,0,0.75);
+    --mediumShadowLight: 3px 3px 2px rgba(255,255,255,0.75);
+    --largeShadowDark: 3px 3px 3px rgba(0,0,0,0.75);
+    --largeShadowLight: 3px 3px 3px rgba(255,255,255,0.75);
+    --subtleShadowDark: 3px 3px 4px rgba(0,0,0,0.75);
+    --subtleShadowLight: 3px 3px 4px rgba(255,255,255,0.75);
+    --faintShadowDark: 2px 2px 5px rgba(0,0,0,0.75);
+    --faintShadowLight: 2px 2px 5px rgba(255,255,255,0.75);
+
+
+}
+
+body {
+    font-family: 'REM', sans-serif;
+    font-size: 1.3rem;
+    font-weight: var(--light);
+    background-color: var(--darkBrown);
+    color: var(--lightCreme);
+}
+
+.testing {
+    font-size: var(--mediumText)
+}
+
+
+@media (min-width: 500px) {
+
+}
+
+
+
+@media (min-width: 750px) {
+
+
+}
+
+
+@media (min-width: 900px) {
+    body {
+        font-size: 1.4rem;
+    }
+}
+
+
+@media (min-width: 1200px) {
+
+}

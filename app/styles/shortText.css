@@ -1,0 +1,34 @@
+.shortText {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: "";
+}
+
+.shortText.numberOfLines-1 {
+    -webkit-line-clamp: 1;
+}
+
+.shortText.numberOfLines-2 {
+    -webkit-line-clamp: 2;
+}
+
+.shortText.numberOfLines-3 {
+    -webkit-line-clamp: 3;
+}
+
+.shortText.numberOfLines-4 {
+    -webkit-line-clamp: 4;
+}
+
+.shortText.numberOfLines-5 {
+    -webkit-line-clamp: 5;
+}
+
+.shortText.numberOfLines-6 {
+    -webkit-line-clamp: 6;
+}
+
+.shortText.numberOfLines-7 {
+    -webkit-line-clamp: 7;
+}
